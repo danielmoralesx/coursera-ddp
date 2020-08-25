@@ -47,13 +47,13 @@ Histogram vs Density
 
 - More visual impact;
 
-- compares a histogram from the samples of the mean distribution with the 
+- Compares a histogram from the samples of the mean distribution with the 
 density of the asymptotic normal distribution;
 
 - Created with 5000 samples of the distribution of the mean of 25 i.i.d. 
 random variables exponential with rate parameter 20;
 
-- Try reproducing it in the app!
+- Try reproducing it!
 
 Q-Q Plot
 ========================================================
@@ -69,4 +69,4 @@ Q-Q Plot
 - Created with 5000 samples of the distribution of the mean of 25 i.i.d. 
 random variables exponential with rate parameter 20;
 
-- Try reproducing it in the app!
+- Try reproducing it!
