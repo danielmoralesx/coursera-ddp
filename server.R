@@ -102,9 +102,7 @@ shinyServer(function(input, output) {
   # QQ-Plot samples from the mean distribution vs CLT asymptotic normal 
   # distribution
   output$qqplot <- renderPlot({
-    dt_qqplot <- data.frame(sample = means())
-    
-    ggplot(dt_qqplot, aes(sample = sample)) + 
+    ggplot(data.frame(sample = means()), aes(sample = sample)) + 
       geom_qq_band(fill = "lightblue", distribution = "norm", 
                    dparams = list(mean = limit_mean(), sd = limit_sd())) + 
       geom_qq(distribution = qnorm, 
