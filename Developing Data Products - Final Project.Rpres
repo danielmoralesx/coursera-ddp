@@ -76,7 +76,7 @@ random variables exponential with rate parameter 20;
 Q-Q Plot
 ========================================================
 
-```{r, echo = FALSE}
+```{r qqplot, echo = FALSE}
 ggplot(data.frame(sample = means), aes(sample = sample)) + 
       geom_qq_band(fill = "lightblue", distribution = "norm", 
                    dparams = list(mean = 0.05, sd = sqrt(1 / (12000)))) + 

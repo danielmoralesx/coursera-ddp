@@ -58,7 +58,7 @@ random variables exponential with rate parameter 20;
 Q-Q Plot
 ========================================================
 
-![plot of chunk unnamed-chunk-1](Developing Data Products - Final Project-figure/unnamed-chunk-1-1.png)
+![plot of chunk qqplot](Developing Data Products - Final Project-figure/qqplot-1.png)
 
 ----
 
