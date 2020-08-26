@@ -4,6 +4,10 @@ author: Daniel Morales
 date: 2020-08-25
 autosize: true
 
+Final project for Developing Data Products course from Johns Hopkins University 
+on Coursera. This is the presentation for the app that you can check out
+[here](https://danielmoralesx.shinyapps.io/Illustrations_for_the_Central_Limit_Theorem/)
+
 ```{r packages, message = FALSE, results = "hide", echo = FALSE}
 library(ggplot2)
 library(qqplotr)
